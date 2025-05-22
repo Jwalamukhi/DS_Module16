@@ -3,16 +3,23 @@
 ## AIM:
 To write a C function to delete an element from an AVL Tree.
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+
+1.Search for the node to delete starting from the root.
+
+2.Delete the node using standard BST rules.
+
+3.Update the height of the affected nodes.
+
+4.Calculate the balance factor of each updated node.
+
+5.Perform rotations if the node is unbalanced.
+
+6.Continue until the tree is balanced again.
 
 ## Program:
 ```
 /*
-Program to find and display the priority of the operator in the given Postfix expression
+
 Developed by: Jwalamukhi S
 RegisterNumber:  212223040079
 */
