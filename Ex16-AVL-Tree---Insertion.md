@@ -4,11 +4,22 @@
 To write a C function to insert the elements in an AVL Tree.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+
+1.Start
+
+2.If the node is NULL, create a new node with value x.
+
+3.Insert x recursively into the left or right subtree based on comparison.
+
+4.Calculate the balance factor (BF) after insertion.
+
+5.If BF is -2 or 2, perform appropriate rotations (RR, RL, LL, or LR).
+
+6.Update the height of the current node.
+
+7.Return the new root after insertion and balancing..
+
+8.End
 
 ## Program:
 ```
