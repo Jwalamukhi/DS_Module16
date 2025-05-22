@@ -4,11 +4,20 @@
 To write a C function to perform right rotation in an AVL Tree.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+
+1.Start
+
+2.Set y to the left child of x.
+
+3.Set the left child of x to be the right child of y.
+
+4.Set the right child of y to be x.
+
+5.Update the height of x and y.
+
+6.Return y as the new root after rotation.
+
+7.End
 
 ## Program:
 ```
